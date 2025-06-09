@@ -1,0 +1,182 @@
+{
+  "name": "Shaun Niel Ochavo",
+  "role": "Software Engineer | Full-Stack Developer",
+  "subtitles": ["Software Engineer", "Full-Stack Developer", "Web/Mobile Developer", "Tech Enthusiast"],
+  "hero": {
+    "greeting": "Hi. My Name is",
+    "introduction": "A passionate Software Engineer with experience in building scalable web and mobile applications, and automating solutions. I specialize in full-stack development using modern technologies and enjoy solving complex problems.",
+    "imageUrl": "/images/profile.jpeg"
+  },
+  "about": {
+    "title": "About Me",
+    "imageUrl": "/images/profile2.jpg",
+    "paragraph1": "I am a Software Engineer with expertise in full-stack development, leveraging technologies like Next.js, React.js, TypeScript, JavaScript, Node.js, Supabase, Flutter, Dart, Firebase, and Python. I specialize in building robust web and mobile applications, and I'm passionate about creating efficient, scalable solutions.",
+    "paragraph2": "With a strong background in software development and a degree in Computer Science, I continuously expand my technical skills. I enjoy tackling complex problems and collaborating with cross-functional teams to deliver impactful results using modern development practices and tools like Git, Docker, and various cloud services.",
+    "skills": [
+      "Next.js", "React.js", "TypeScript", "JavaScript", "Node.js", "Supabase", 
+      "Flutter", "Dart", "Firebase", "React Native", "PostgreSQL", "Stripe", 
+      "Svelte", "SvelteKit", "Python", "Django", "MySQL", "SASS", "Bootstrap", 
+      "TailwindCSS", "ChakraUI", "HTML5", "CSS3", "Git", "Linux", "Figma", 
+      "RESTful API", "StorybookJS", "Android Studio", "Amazon S3", "Prisma ORM", 
+      "Google Gemini", "Postman", "Docker", "Frontend", "Backend", "Full-Stack", 
+      "Mobile Development"
+    ]
+  },
+  "experience": {
+    "title": "My Journey",
+    "jobs": [
+      {
+        "role": "Flutter Developer",
+        "company": "Sindbad.Tech | سندباد.تك",
+        "period": "Mar 2025 - Present",
+        "responsibilities": [
+          "Architected a new Flutter application from Figma designs, establishing project structure and UI components for iOS and Android.",
+          "Built biometric authentication flows (Face ID/Touch ID) to secure user access, utilizing platform-native APIs for seamless integration."
+        ]
+      },
+      {
+        "role": "Frontend Web Developer",
+        "company": "Sindbad.Tech | سندباد.تك",
+        "period": "Jan 2025 - Mar 2025",
+        "responsibilities": [
+          "Seconded as sole frontend engineer to deliver a trading-bot web app under a rapid timeline, partnering directly with the CEO and backend team.",
+          "Translated Figma prototypes into production-ready React/Next.js pages, enhancing UX consistency and code modularity.",
+          "Refactored the existing repository—streamlining folder structure, standardizing components, and improving build performance.",
+          "Integrated dynamic backend endpoints via React Query for bot and trading workflows using environment-driven API URLs."
+        ]
+      },
+      {
+        "role": "Flutter Developer",
+        "company": "Sindbad.Tech | سندباد.تك",
+        "period": "Nov 2024 - Jan 2025",
+        "responsibilities": [
+          "Enhanced an existing Flutter trading-bot app by synchronizing mobile features with its web counterpart, boosting UI consistency and user engagement.",
+          "Implemented bi-directional language support (RTL & LTR), extending accessibility to diverse international audiences.",
+          "Refactored legacy modules to improve code readability, maintainability, and overall performance.",
+          "Architected & integrated RESTful API services with Dio and HTTP for authentication, trading operations, safeguard signals, and subscription management."
+        ]
+      },
+      {
+        "role": "Software Engineer",
+        "company": "Freelance",
+        "period": "July 2022 – June 2025",
+        "responsibilities": [
+          "Designed and implemented responsive and interactive web layouts for various client and internal projects, ensuring mobile-first compatibility.",
+          "Built mobile applications using Flutter and Firebase, incorporating features such as geolocation, notifications, and interactive UI elements to enhance user engagement.",
+          "Developed custom web applications using technologies like Next.js, React.js, Supabase, TypeScript, JavaScript, Django, Node.js, and TailwindCSS.",
+          "Collaborated with clients to understand requirements, deliver feedback, and ensure high-quality project delivery.",
+          "Conducted extensive testing and debugging to optimize application performance and functionality.",
+          "Managed multiple projects simultaneously, ensuring timely delivery by prioritizing tasks and meeting deadlines."
+        ]
+      },
+      {
+        "role": "Full-stack Developer Intern",
+        "company": "Caraga State University (Main Campus)",
+        "period": "February 2025 – May 2025",
+        "responsibilities": [
+          "Spearheaded the development of a comprehensive web application for managing college extension programs, utilizing Next.js, TypeScript, PostgreSQL, and Prisma ORM.",
+          "Designed and implemented 10 service modules featuring responsive UI components with Tailwind CSS and Shadcn UI",
+          "Developed full-stack features such as document management integrated with S3 storage, data visualization dashboards using Recharts, and secure authentication mechanisms via NextAuth.js.",
+          "Containerized the application using Docker, ensuring consistent deployment across development and production environments."
+        ]
+      },
+      {
+        "role": "Frontend Developer Intern",
+        "company": "Prifina - Liberty. Equality. Data.",
+        "period": "October 2022 – November 2023",
+        "responsibilities": [
+          "Developed landing pages and login/signup functionality for an AI-powered job search assistant, ensuring smooth user flow and responsive design based on Figma wireframes.",
+          "Created a sleep monitoring widget using React.js, enabling precise tracking of sleep stages and enhancing user interaction.",
+          "Designed and implemented Storybook documentation for UI components, streamlining collaboration and improving team accessibility.",
+          "Utilized React.js, Next.js, TypeScript, and modern front-end technologies to deliver high-quality, user-centric web applications."
+        ]
+      },
+      {
+        "role": "Software Engineer Intern",
+        "company": "Bayugan City Senior High School",
+        "period": "March 2021 – May 2021",
+        "responsibilities": [
+          "Developed a CRUD application for school management using Java and MySQL, streamlining administrative processes.",
+          "Implemented visitor rating features for offices and faculty members, enhancing user interaction and feedback collection.",
+          "Created an admin dashboard with data visualization, providing insights and improving decision-making."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "items": [
+      {
+        "name": "Extension Services Info System (ESIS)",
+        "description": "A web application for managing college extension programs and activities.",
+        "technologies": ["NextJS", "ReactJS", "Tailwind CSS", "TypeScript", "Prisma ORM", "AuthJS", "PostgreSQL", "Docker", "AWS S3 Storage"],
+        "link": "#",
+        "repoUrl": "#"
+      },
+      {
+        "name": "Notifbuy",
+        "description": "A mobile app designed to revolutionize local commerce by connecting mobile peddlers with nearby customers through real-time notifications and streamlined interactions.",
+        "technologies": ["Flutter", "Dart", "Firebase", "Google Maps API", "Xendit"],
+        "link": "#",
+        "repoUrl": "#"
+      },
+      {
+        "name": "Evacuation Management System",
+        "description": "A web application for managing evacuation procedures during emergencies.",
+        "technologies": ["ReactJS", "JavaScript", "Django", "Python", "MySQL"],
+        "link": "#",
+        "repoUrl": "https://github.com/shaunniekins/evacuation-management-system"
+      },
+      {
+        "name": "Agri-Advice",
+        "description": "A specialized agricultural advisory platform designed to connect pig farmers with technical experts and provide AI-assisted guidance for swine management. ",
+        "technologies": ["NextJS", "ReactJS", "Tailwind CSS", "TypeScript", "Supabase", "PostgreSQL", "Google Gemini AI"],
+        "link": "#",
+        "repoUrl": "#"
+      },
+      {
+        "name": "Job Placement Tracking System (JPTS)",
+        "description": "A web application for tracking job placements and managing student data, designed to streamline the job placement process.",
+        "technologies": ["NextJS", "ReactJS", "Tailwind CSS", "TypeScript", "Supabase", "PostgreSQL", "AWS S3 Storage", "Twilio"],
+        "link": "#",
+        "repoUrl": "#"
+      },
+      {
+        "name": "Kaitawan Tamu",
+        "description": "A data visualization dashboard for retail metrics, offering insights into sales trends, customer behavior, and inventory management with interactive charts and reports.",
+        "technologies": ["NextJS", "ReactJS", "Tailwind CSS", "TypeScript", "Supabase", "PostgreSQL", "Google Gemini AI", "AWS S3 Storage"],
+        "link": "#",
+        "repoUrl": "#"
+      },
+      {
+        "name": "Traffico",
+        "description": "A comprehensive solution designed to streamline the reporting of drivers with violations, facilitate the registration for permits, and provide a user-friendly dashboard for easy management and oversight.",
+        "technologies": ["NextJS", "ReactJS", "Tailwind CSS", "TypeScript", "Supabase", "PostgreSQL"],
+        "link": "#",
+        "repoUrl": "#"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "intro": "I'm currently open to new opportunities and collaborations. Whether you have a question or just want to say hi, my inbox is always open!",
+    "email": "shaunniel02@gmail.com",
+    "socials": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/shaunniekins",
+        "icon": "github"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/shaunniekins/",
+        "icon": "linkedin"
+      },
+      {
+        "name": "Resume",
+        "url": "https://drive.google.com/drive/u/0/folders/1vrfQt_FnG3P6B1Yo_Bou5ivNvKr6jiel",
+        "icon": "resume"
+      }
+    ]
+  }
+}

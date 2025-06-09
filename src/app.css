@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer components {
+  .glass-effect {
+    background: rgba(76, 29, 149, 0.15);
+    backdrop-filter: blur(12px) saturate(180%);
+    -webkit-backdrop-filter: blur(12px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  .glass-card {
+    background: rgba(55, 48, 163, 0.2);
+    backdrop-filter: blur(8px) saturate(150%);
+    -webkit-backdrop-filter: blur(8px) saturate(150%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+  }
+
+  .glass-card:hover {
+    background: rgba(79, 70, 229, 0.25);
+    border-color: rgba(255, 255, 255, 0.18);
+    transform: translateY(-5px);
+  }
+
+  .glass-nav {
+    background: rgba(30, 41, 59, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+}
