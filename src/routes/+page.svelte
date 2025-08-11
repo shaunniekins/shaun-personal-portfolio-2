@@ -36,13 +36,42 @@
   onMount(() => {
     const observer = new IntersectionObserver(
       (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            activeSection = entry.target.id;
-          }
-        });
+        // Create a map to store intersection data
+        const intersectingEntries = entries
+          .filter((entry) => entry.isIntersecting)
+          .map((entry) => ({
+            id: entry.target.id,
+            ratio: entry.intersectionRatio,
+            boundingRect: entry.boundingClientRect,
+            rootBounds: entry.rootBounds,
+          }));
+
+        if (intersectingEntries.length > 0) {
+          // Find the section that's most centered in the viewport
+          const viewportCenter = window.innerHeight / 2;
+
+          let bestSection = intersectingEntries[0];
+          let bestDistance = Infinity;
+
+          intersectingEntries.forEach((entry) => {
+            // Calculate distance from section center to viewport center
+            const sectionCenter =
+              entry.boundingRect.top + entry.boundingRect.height / 2;
+            const distance = Math.abs(sectionCenter - viewportCenter);
+
+            if (distance < bestDistance) {
+              bestDistance = distance;
+              bestSection = entry;
+            }
+          });
+
+          activeSection = bestSection.id;
+        }
       },
-      { threshold: 0.5 } // Adjust threshold as needed
+      {
+        threshold: [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0],
+        rootMargin: "-50px 0px -50px 0px",
+      }
     );
 
     sections.forEach((id) => {
@@ -50,8 +79,33 @@
       if (element) observer.observe(element);
     });
 
+    // Backup scroll listener for more accurate navigation highlighting
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY + window.innerHeight / 2;
+
+      for (let i = sections.length - 1; i >= 0; i--) {
+        const element = document.getElementById(sections[i]);
+        if (element) {
+          const elementTop = element.offsetTop;
+          const elementBottom = elementTop + element.offsetHeight;
+
+          if (scrollPosition >= elementTop && scrollPosition <= elementBottom) {
+            if (activeSection !== sections[i]) {
+              activeSection = sections[i];
+            }
+            break;
+          }
+        }
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    // Initial call to set correct section
+    handleScroll();
+
     return () => {
       observer.disconnect();
+      window.removeEventListener("scroll", handleScroll);
       if (typeof document !== "undefined") {
         document.body.classList.remove("body-no-scroll");
       }
@@ -244,7 +298,7 @@
         <img
           src={portfolioData.hero.imageUrl}
           alt={portfolioData.name}
-          class="rounded-full shadow-2xl w-72 h-72 sm:w-80 sm:h-80 md:w-[27rem] md:h-[27rem] object-cover border-4 border-purple-500 glass-effect"
+          class="rounded-full shadow-2xl w-72 h-72 sm:w-80 sm:h-80 md:w-[27rem] md:h-[27rem] object-cover object-[center_25%] border-4 border-purple-500 glass-effect"
         />
       </div>
     </div>

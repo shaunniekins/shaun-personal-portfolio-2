@@ -5,7 +5,7 @@
   "hero": {
     "greeting": "Hi. My Name is",
     "introduction": "A passionate Software Engineer with experience in building scalable web and mobile applications, and automating solutions. I specialize in full-stack development using modern technologies and enjoy solving complex problems.",
-    "imageUrl": "/images/profile.jpeg"
+    "imageUrl": "/images/profile1.jpg"
   },
   "about": {
     "title": "About Me",
@@ -26,47 +26,28 @@
     "title": "My Journey",
     "jobs": [
       {
-        "role": "Flutter Developer",
+        "role": "Full Stack Engineer",
         "company": "Sindbad.Tech | سندباد.تك",
         "period": "Mar 2025 - Present",
         "responsibilities": [
-          "Architected a new Flutter application from Figma designs, establishing project structure and UI components for iOS and Android.",
-          "Built biometric authentication flows (Face ID/Touch ID) to secure user access, utilizing platform-native APIs for seamless integration."
+          "Collaborated directly with the CEO and backend team to lead frontend development of a trading-bot web app using React.js, Next.js, and TypeScript — shipped MVP under rapid timelines.",
+          "Translated Figma designs into clean, modular components following strict design systems and code conventions, enhancing UX consistency across the platform.",
+          "Integrated dynamic RESTful APIs using React Query, enabling real-time trading and bot workflows with environment-based configuration.",
+          "Engineered a cross-platform mobile app with Flutter, including biometric authentication (Face ID / Touch ID), RTL/LTR support, and RESTful integration — improving performance and accessibility.",
+          "Conducted manual QA and end-to-end testing prior to deployment, delivering stable features that required minimal post-launch fixes."
+
         ]
       },
       {
-        "role": "Frontend Web Developer",
-        "company": "Sindbad.Tech | سندباد.تك",
-        "period": "Jan 2025 - Mar 2025",
-        "responsibilities": [
-          "Seconded as sole frontend engineer to deliver a trading-bot web app under a rapid timeline, partnering directly with the CEO and backend team.",
-          "Translated Figma prototypes into production-ready React/Next.js pages, enhancing UX consistency and code modularity.",
-          "Refactored the existing repository—streamlining folder structure, standardizing components, and improving build performance.",
-          "Integrated dynamic backend endpoints via React Query for bot and trading workflows using environment-driven API URLs."
-        ]
-      },
-      {
-        "role": "Flutter Developer",
-        "company": "Sindbad.Tech | سندباد.تك",
-        "period": "Nov 2024 - Jan 2025",
-        "responsibilities": [
-          "Enhanced an existing Flutter trading-bot app by synchronizing mobile features with its web counterpart, boosting UI consistency and user engagement.",
-          "Implemented bi-directional language support (RTL & LTR), extending accessibility to diverse international audiences.",
-          "Refactored legacy modules to improve code readability, maintainability, and overall performance.",
-          "Architected & integrated RESTful API services with Dio and HTTP for authentication, trading operations, safeguard signals, and subscription management."
-        ]
-      },
-      {
-        "role": "Software Engineer",
+        "role": "Full-Stack Developer",
         "company": "Freelance",
-        "period": "July 2022 – June 2025",
+        "period": "July 2022 – August 2025",
         "responsibilities": [
-          "Designed and implemented responsive and interactive web layouts for various client and internal projects, ensuring mobile-first compatibility.",
-          "Built mobile applications using Flutter and Firebase, incorporating features such as geolocation, notifications, and interactive UI elements to enhance user engagement.",
-          "Developed custom web applications using technologies like Next.js, React.js, Supabase, TypeScript, JavaScript, Django, Node.js, and TailwindCSS.",
-          "Collaborated with clients to understand requirements, deliver feedback, and ensure high-quality project delivery.",
-          "Conducted extensive testing and debugging to optimize application performance and functionality.",
-          "Managed multiple projects simultaneously, ensuring timely delivery by prioritizing tasks and meeting deadlines."
+          "Delivered responsive, interactive UIs across multiple freelance projects with React.js, Redux, and Tailwind CSS, following mobile-first best practices.",
+          "Developed and deployed mobile apps using Flutter with Firebase, geolocation, and local storage — maintaining robust offline functionality.",
+          "Built web and mobile applications with Next.js, Supabase, Django, and PostgreSQL, handling both frontend and backend architecture.",
+          "Maintained direct communication with clients to scope features, clarify requirements, and deliver production-ready features on time."
+
         ]
       },
       {
