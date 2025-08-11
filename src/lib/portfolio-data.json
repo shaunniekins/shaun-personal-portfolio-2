@@ -113,21 +113,21 @@
         "description": "A specialized agricultural advisory platform designed to connect pig farmers with technical experts and provide AI-assisted guidance for swine management. ",
         "technologies": ["NextJS", "ReactJS", "Tailwind CSS", "TypeScript", "Supabase", "PostgreSQL", "Google Gemini AI"],
         "link": "#",
-        "repoUrl": "#"
+        "repoUrl": "https://github.com/shaunniekins/agri-advice"
       },
       {
         "name": "Job Placement Tracking System (JPTS)",
         "description": "A web application for tracking job placements and managing student data, designed to streamline the job placement process.",
         "technologies": ["NextJS", "ReactJS", "Tailwind CSS", "TypeScript", "Supabase", "PostgreSQL", "AWS S3 Storage", "Twilio"],
         "link": "#",
-        "repoUrl": "#"
+        "repoUrl": "https://github.com/shaunniekins/job-placement-tracking-system"
       },
       {
         "name": "Kaitawan Tamu",
         "description": "A data visualization dashboard for retail metrics, offering insights into sales trends, customer behavior, and inventory management with interactive charts and reports.",
         "technologies": ["NextJS", "ReactJS", "Tailwind CSS", "TypeScript", "Supabase", "PostgreSQL", "Google Gemini AI", "AWS S3 Storage"],
         "link": "#",
-        "repoUrl": "#"
+        "repoUrl": "https://github.com/shaunniekins/kaitawan-tamu"
       },
       {
         "name": "Traffico",
@@ -135,13 +135,62 @@
         "technologies": ["NextJS", "ReactJS", "Tailwind CSS", "TypeScript", "Supabase", "PostgreSQL"],
         "link": "#",
         "repoUrl": "#"
+      },
+      {
+        "name": "GWA PH Calculator",
+        "description": "A web application for calculating the General Weighted Average (GWA) of students based on their grades.",
+        "technologies": ["NextJS", "ReactJS", "TypeScript"],
+        "link": "https://gwaphcalc.shaunniekins.com",
+        "repoUrl": "https://github.com/shaunniekins/gwa-ph-calc"
+      },
+      {
+        "name": "Symphia",
+        "description": "Voice AI Chatbot that utilizes Speech-to-Text (STT) and Text-to-Speech (TTS) technologies.",
+        "technologies": ["Flutter", "Dart", "Google Gemini AI"],
+        "link":"#",
+        "repoUrl": "https://github.com/shaunniekins/symphia"
+      },
+      {
+        "name": "Tara",
+        "description": "A location-based social discovery mobile app that connects people through shared activities and experiences. The name 'Tara' means 'Let's go!' in Filipino, perfectly capturing the app's spirit of bringing people together.",
+        "technologies": ["Flutter", "Dart", "Firebase", "Cloud Firestore", "Firebase Storage", "Google Maps"],
+        "link": "#",
+        "repoUrl": "https://github.com/shaunniekins/tara"
+      },
+      {
+        "name": "QRollCall",
+        "description": "A QR Attendance Tracking App built with Flutter. Allows users to scan QR codes and tracks attendance based on the scanned data.",
+        "technologies": ["Flutter", "Dart", "QR Scanner"],
+        "link": "#",
+        "repoUrl": "https://github.com/shaunniekins/qrollcall"
+      },
+      {
+        "name": "Cropshot",
+        "description": "A Chrome extension that allows users to choose what to share during screen sharing sessions.",
+        "technologies": ["JavaScript", "HTML", "Chrome Extension API", "Tailwind CSS"],
+        "link": "#",
+        "repoUrl": "https://github.com/shaunniekins/cropshot"
+      },
+      {
+        "name": "Laban",
+        "description": "An interactive educational game that combines mathematics learning with RPG-style combat mechanics. Players battle enemies by solving math problems correctly, making learning both engaging and rewarding.",
+        "technologies": ["Next.js", "React", "TypeScript"],
+        "link": "https://laban.shaunniekins.com/",
+        "repoUrl": "https://github.com/shaunniekins/laban"
+      },
+      {
+        "name": "ASNet Brain Tumor Segmentation",
+        "description": "Comparing different encoder backbones (VGG16, MobileNetV3, EfficientNetV2) for the AS-Net model on the BraTS 2023 brain tumor segmentation task.",
+        "technologies": ["Python", "Machine Learning", "Computer Vision", "VGG16", "MobileNetV3", "EfficientNetV2"],
+        "link": "#",
+        "repoUrl": "https://github.com/shaunniekins/asnet-brats-encoder-comparison"
       }
     ]
   },
   "contact": {
     "title": "Get In Touch",
     "intro": "I'm currently open to new opportunities and collaborations. Whether you have a question or just want to say hi, my inbox is always open!",
-    "email": "shaunniel02@gmail.com",
+    "email": "shaun@shaunniekins.com",
     "socials": [
       {
         "name": "GitHub",
