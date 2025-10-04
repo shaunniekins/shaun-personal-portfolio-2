@@ -5,7 +5,7 @@
   "hero": {
     "greeting": "Hi. My Name is",
     "introduction": "A passionate Software Engineer with experience in building scalable web and mobile applications, and automating solutions. I specialize in full-stack development using modern technologies and enjoy solving complex problems.",
-    "imageUrl": "/images/profile1.jpg"
+    "imageUrl": "/images/profile1.jpeg"
   },
   "about": {
     "title": "About Me",
@@ -25,6 +25,18 @@
   "experience": {
     "title": "My Journey",
     "jobs": [
+      {
+        "role": "Frontend Engineer",
+        "company": "KUROFUNE株式会社",
+        "period": "September 2025 - Present",
+        "responsibilities": [
+          "Collaborated with cross-functional teams to develop and maintain web applications using React.js, Laravel, and JavaScript, ensuring high performance and responsiveness.",
+          "Implemented responsive design principles to create user-friendly interfaces that adapt seamlessly across various devices and screen sizes.",
+          "Optimized application performance through code splitting, lazy loading, and efficient state management using Redux and React Query.",
+          "Worked closely with designers to translate Figma designs into pixel-perfect, reusable components, enhancing the overall user experience.",
+          "Participated in code reviews and contributed to improving coding standards and best practices within the team."
+        ]
+      },
       {
         "role": "Full Stack Engineer",
         "company": "Sindbad.Tech | سندباد.تك",

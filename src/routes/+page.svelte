@@ -387,7 +387,7 @@
         <img
           src={portfolioData.hero.imageUrl}
           alt={portfolioData.name}
-          class="rounded-full shadow-2xl w-72 h-72 sm:w-80 sm:h-80 md:w-[27rem] md:h-[27rem] object-cover object-[center_25%] border-4 border-purple-500 glass-effect"
+          class="rounded-full shadow-2xl w-72 h-72 sm:w-80 sm:h-80 md:w-[27rem] md:h-[27rem] object-cover object-[center_75%] border-4 border-purple-500 glass-effect"
         />
       </div>
     </div>
