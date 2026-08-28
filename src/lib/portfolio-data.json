@@ -38,9 +38,11 @@
         "items": [
           "Next.js",
           "React.js",
+          "Vue.js",
           "Svelte",
           "SvelteKit",
           "TailwindCSS",
+          "Ant Design",
           "SASS",
           "Bootstrap",
           "ChakraUI",
@@ -58,6 +60,7 @@
       {
         "name": "Backend & Data",
         "items": [
+          "Laravel",
           "Node.js",
           "Django",
           "PostgreSQL",
@@ -78,7 +81,8 @@
           "Stripe",
           "Postman",
           "Figma",
-          "Google Gemini"
+          "Google Gemini",
+          "Claude"
         ]
       },
       {
@@ -97,6 +101,17 @@
   "experience": {
     "title": "My Journey",
     "jobs": [
+      {
+        "role": "Software Engineer",
+        "company": "KUROFUNE株式会社",
+        "companyUrl": "https://www.linkedin.com/company/kurofune%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE/",
+        "period": "September 2025 - Present",
+        "responsibilities": [
+          "Built the platform's web interface from Figma handoffs, turning static designs into working screens and a reusable component library.",
+          "Worked beyond the frontend into the backend, implementing endpoints and data models where features needed more than interface work.",
+          "Collaborated with a team of developers through code review and shared conventions, keeping the codebase consistent as the platform grew."
+        ]
+      },
       {
         "role": "Full Stack Engineer",
         "company": "Sindbad.Tech | سندباد.تك",
@@ -360,7 +375,7 @@
   "contact": {
     "title": "Get In Touch",
     "intro": "I’m currently open to new opportunities and collaborations. Whether you have a question or just want to say hi, my inbox is always open!",
-    "email": "shaun@shaunniekins.com",
+    "email": "hello@shaunniekins.com",
     "socials": [
       {
         "name": "GitHub",

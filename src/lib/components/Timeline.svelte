@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Icon from "./Icon.svelte";
   import SectionHeading from "./SectionHeading.svelte";
   import { reveal } from "$lib/reveal";
   import data from "$lib/portfolio-data.json";
@@ -53,9 +54,29 @@
             {job.role}
           </h3>
 
-          <p class="mt-1 text-base text-violet-soft" dir="auto" translate="no">
-            {job.company}
-          </p>
+          <!-- companyUrl is optional; only linked when the data provides one. -->
+          {#if "companyUrl" in job && job.companyUrl}
+            <p class="mt-1">
+              <a
+                href={job.companyUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="group/company inline-flex items-baseline gap-1.5 text-base text-violet-soft transition-colors duration-200 hover:text-text"
+                dir="auto"
+                translate="no"
+              >
+                {job.company}
+                <span class="shrink-0 self-center opacity-60 transition-opacity duration-200 group-hover/company:opacity-100">
+                  <Icon name="external" size={14} />
+                </span>
+                <span class="sr-only">, opens in a new tab</span>
+              </a>
+            </p>
+          {:else}
+            <p class="mt-1 text-base text-violet-soft" dir="auto" translate="no">
+              {job.company}
+            </p>
+          {/if}
 
           <ul class="mt-5 space-y-2.5" style="list-style: none">
             {#each job.responsibilities as responsibility (responsibility)}
