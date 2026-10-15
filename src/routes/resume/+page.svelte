@@ -319,7 +319,7 @@
   }
 
   .job + .job {
-    margin-top: 10.8pt;
+    margin-top: 10pt;
   }
 
   /* Company/location left, date flush right — the original fakes this with tabs. */

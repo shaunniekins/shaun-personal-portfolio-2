@@ -112,9 +112,9 @@
         "remote": true,
         "employment": "Full-time",
         "responsibilities": [
-          "Collaborated with cross-functional teams to develop and maintain web applications using React.js, Laravel, and JavaScript, ensuring high performance and responsiveness.",
-          "Implemented responsive design principles to create user-friendly interfaces that adapt seamlessly across various devices and screen sizes.",
-          "Optimized application performance through code splitting, lazy loading, and efficient state management using Redux and React Query."
+          "Accelerated feature delivery by building reusable **React.js** component systems and enforcing shared conventions with **Laravel**, reducing integration friction across the frontend and backend teams.",
+          "Eliminated device-compatibility defects across phone, tablet, and desktop by implementing a systematic mobile-first responsive design process with **TailwindCSS**.",
+          "Improved perceived page-load speed on high-traffic views by introducing code splitting and lazy loading, managed via **Redux** and **React Query** for efficient state and data synchronization."
         ]
       },
       {
@@ -124,11 +124,9 @@
         "remote": true,
         "employment": "Part-time",
         "responsibilities": [
-          "Collaborated directly with the CEO and backend team to lead frontend development of a trading-bot web app using **React.js**, **Next.js**, and **TypeScript** — shipped MVP under rapid timelines.",
-          "Translated Figma designs into clean, modular components following strict design systems and code conventions, enhancing UX consistency across the platform.",
-          "Integrated dynamic RESTful APIs using **React Query**, enabling real-time trading and bot workflows with environment-based configuration.",
-          "Engineered a cross-platform mobile app with **Flutter**, including biometric authentication (Face ID / Touch ID), RTL/LTR support, and RESTful integration — improving performance and accessibility.",
-          "Conducted manual QA and end-to-end testing prior to deployment, delivering stable features that required minimal post-launch fixes."
+          "Shipped a trading-bot web app MVP on an accelerated timeline by leading frontend architecture with **React.js**, **Next.js**, and **TypeScript** — translating Figma specs into strict, modular components with near-zero drift from design intent.",
+          "Enabled real-time trading workflows by integrating RESTful APIs via **React Query** with environment-based configuration, supporting live bot execution and monitoring.",
+          "Expanded the platform to mobile by engineering a cross-platform **Flutter** app with biometric authentication (Face ID / Touch ID) and full RTL/LTR support, making the product accessible to Arabic-speaking users."
         ]
       },
       {
@@ -137,10 +135,10 @@
         "period": "July 2022 – August 2025",
         "remote": true,
         "responsibilities": [
-          "Delivered responsive, interactive UIs across multiple freelance projects with **React.js**, **Redux**, and **Tailwind CSS**, following mobile-first best practices.",
-          "Developed and deployed mobile apps using **Flutter** with **Firebase**, geolocation, and local storage — maintaining robust offline functionality.",
-          "Built web and mobile applications with **Next.js**, **Supabase**, **Django**, and **PostgreSQL**, handling both frontend and backend architecture.",
-          "Maintained direct communication with clients to scope features, clarify requirements, and deliver production-ready features on time."
+          "Delivered 5+ client projects on time by building responsive, mobile-first UIs with **React.js**, **Redux**, and **Tailwind CSS**, translating client briefs directly into production-ready interfaces.",
+          "Maintained robust offline functionality for field users by developing and deploying **Flutter** mobile apps with **Firebase**, geolocation, and local storage caching.",
+          "Owned full-stack delivery across projects — from database schema design in **PostgreSQL** to API development with **Django** and UI delivery with **Next.js** and **Supabase**.",
+          "Achieved on-time delivery across all engagements by surfacing blockers early, clarifying requirements upfront, and aligning on acceptance criteria before development."
         ]
       },
       {
@@ -150,9 +148,9 @@
         "location": "Ampayon, Butuan City",
         "remote": true,
         "responsibilities": [
-          "Led the creation of a full-stack admin system for university extension programs using **Next.js**, **PostgreSQL**, **Prisma**, and **TailwindCSS**.",
-          "Designed and implemented 10+ responsive UI modules; built document handling features with **Amazon S3**, and integrated secure authentication via **NextAuth.js**.",
-          "Deployed Dockerized environments to ensure seamless development-to-production transition."
+          "Replaced a manual, paper-based extension program workflow by building a full-stack admin system with **Next.js**, **PostgreSQL**, **Prisma**, and **TailwindCSS** — covering the entire data lifecycle from submission to reporting.",
+          "Reduced document handling overhead for administrators by delivering 10+ responsive UI modules with integrated file management via **Amazon S3** and secure role-based access through **NextAuth.js**.",
+          "Ensured consistent, reproducible environments from development to production by containerizing the application with **Docker**, eliminating environment-specific deployment failures."
         ]
       },
       {
@@ -162,9 +160,9 @@
         "location": "San Francisco Bay Area",
         "remote": true,
         "responsibilities": [
-          "Built key UI components for an AI job search assistant in React.js, optimized for responsiveness and performance.",
-          "Created reusable Storybook components to improve team development velocity and reduce QA feedback cycles.",
-          "Developed a data-driven sleep monitoring widget in React, enhancing user personalization and engagement."
+          "Contributed to a faster job-search experience by building core UI components for an AI-powered job search assistant in **React.js**, prioritizing responsiveness across device sizes.",
+          "Reduced repetitive QA cycles by creating a reusable **Storybook** component library, enabling isolated visual testing and consistent UI across the product.",
+          "Increased user engagement potential by developing a data-driven sleep monitoring widget in **React**, personalizing the dashboard with health metrics drawn from user-owned data."
         ]
       },
       {
@@ -185,7 +183,7 @@
     "items": [
       {
         "name": "Extension Services Info System (ESIS)",
-        "description": "A web application for managing college extension programs and activities.",
+        "description": "A web application for managing college extension programs and activities, replacing a manual paper-based workflow with a full digital system covering submission, tracking, document management, and reporting.",
         "technologies": [
           "Next.js",
           "React",
@@ -201,7 +199,23 @@
         "repoUrl": "#",
         "resume": {
           "name": "ESIS",
-          "summary": "Full-stack university extension system (Next.js, Prisma, PostgreSQL, Docker)."
+          "summary": "Full-stack university extension admin system — Next.js, Prisma ORM, PostgreSQL, Docker, Amazon S3, role-based auth."
+        }
+      },
+      {
+        "name": "Simple Worship",
+        "description": "A browser-based worship presentation app for churches — manage songs, scriptures, and media in a multi-pane layout and push slides to a live projector display in real time.",
+        "technologies": [
+          "Next.js",
+          "React",
+          "TypeScript",
+          "Tailwind CSS"
+        ],
+        "link": "https://simple-worship.shaunniekins.com/",
+        "repoUrl": "#",
+        "resume": {
+          "name": "Simple Worship",
+          "summary": "Browser-based church presentation app — Next.js, TypeScript; real-time projector push, song/scripture/media library."
         }
       },
       {
@@ -311,10 +325,7 @@
           "Google Gemini"
         ],
         "link": "#",
-        "repoUrl": "https://github.com/shaunniekins/symphia",
-        "resume": {
-          "summary": "AI voice chatbot built in Flutter with Gemini API, STT/TTS, and dynamic conversation flow."
-        }
+        "repoUrl": "https://github.com/shaunniekins/symphia"
       },
       {
         "name": "Tara",
