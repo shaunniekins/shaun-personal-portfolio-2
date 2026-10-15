@@ -29,6 +29,7 @@
           "JavaScript",
           "Python",
           "Dart",
+          "PHP",
           "HTML5",
           "CSS3"
         ]
@@ -38,6 +39,7 @@
         "items": [
           "Next.js",
           "React.js",
+          "Redux",
           "Vue.js",
           "Svelte",
           "SvelteKit",
@@ -62,6 +64,7 @@
         "items": [
           "Laravel",
           "Node.js",
+          "Express.js",
           "Django",
           "PostgreSQL",
           "MySQL",
@@ -102,25 +105,29 @@
     "title": "My Journey",
     "jobs": [
       {
-        "role": "Software Engineer",
+        "role": "Frontend Engineer",
         "company": "KUROFUNE株式会社",
         "companyUrl": "https://www.linkedin.com/company/kurofune%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE/",
         "period": "September 2025 - Present",
+        "remote": true,
+        "employment": "Full-time",
         "responsibilities": [
-          "Built the platform's web interface from Figma handoffs, turning static designs into working screens and a reusable component library.",
-          "Worked beyond the frontend into the backend, implementing endpoints and data models where features needed more than interface work.",
-          "Collaborated with a team of developers through code review and shared conventions, keeping the codebase consistent as the platform grew."
+          "Collaborated with cross-functional teams to develop and maintain web applications using React.js, Laravel, and JavaScript, ensuring high performance and responsiveness.",
+          "Implemented responsive design principles to create user-friendly interfaces that adapt seamlessly across various devices and screen sizes.",
+          "Optimized application performance through code splitting, lazy loading, and efficient state management using Redux and React Query."
         ]
       },
       {
         "role": "Full Stack Engineer",
         "company": "Sindbad.Tech | سندباد.تك",
-        "period": "November 2022 - Present",
+        "period": "November 2024 - October 2026",
+        "remote": true,
+        "employment": "Part-time",
         "responsibilities": [
-          "Collaborated directly with the CEO and backend team to lead frontend development of a trading-bot web app using React.js, Next.js, and TypeScript — shipped MVP under rapid timelines.",
+          "Collaborated directly with the CEO and backend team to lead frontend development of a trading-bot web app using **React.js**, **Next.js**, and **TypeScript** — shipped MVP under rapid timelines.",
           "Translated Figma designs into clean, modular components following strict design systems and code conventions, enhancing UX consistency across the platform.",
-          "Integrated dynamic RESTful APIs using React Query, enabling real-time trading and bot workflows with environment-based configuration.",
-          "Engineered a cross-platform mobile app with Flutter, including biometric authentication (Face ID / Touch ID), RTL/LTR support, and RESTful integration — improving performance and accessibility.",
+          "Integrated dynamic RESTful APIs using **React Query**, enabling real-time trading and bot workflows with environment-based configuration.",
+          "Engineered a cross-platform mobile app with **Flutter**, including biometric authentication (Face ID / Touch ID), RTL/LTR support, and RESTful integration — improving performance and accessibility.",
           "Conducted manual QA and end-to-end testing prior to deployment, delivering stable features that required minimal post-launch fixes."
         ]
       },
@@ -128,10 +135,11 @@
         "role": "Full-Stack Developer",
         "company": "Freelance",
         "period": "July 2022 – August 2025",
+        "remote": true,
         "responsibilities": [
-          "Delivered responsive, interactive UIs across multiple freelance projects with React.js, Redux, and Tailwind CSS, following mobile-first best practices.",
-          "Developed and deployed mobile apps using Flutter with Firebase, geolocation, and local storage — maintaining robust offline functionality.",
-          "Built web and mobile applications with Next.js, Supabase, Django, and PostgreSQL, handling both frontend and backend architecture.",
+          "Delivered responsive, interactive UIs across multiple freelance projects with **React.js**, **Redux**, and **Tailwind CSS**, following mobile-first best practices.",
+          "Developed and deployed mobile apps using **Flutter** with **Firebase**, geolocation, and local storage — maintaining robust offline functionality.",
+          "Built web and mobile applications with **Next.js**, **Supabase**, **Django**, and **PostgreSQL**, handling both frontend and backend architecture.",
           "Maintained direct communication with clients to scope features, clarify requirements, and deliver production-ready features on time."
         ]
       },
@@ -139,22 +147,24 @@
         "role": "Full-stack Developer Intern",
         "company": "Caraga State University (Main Campus)",
         "period": "February 2025 – May 2025",
+        "location": "Ampayon, Butuan City",
+        "remote": true,
         "responsibilities": [
-          "Spearheaded the development of a comprehensive web application for managing college extension programs, utilizing Next.js, TypeScript, PostgreSQL, and Prisma ORM.",
-          "Designed and implemented 10 service modules featuring responsive UI components with Tailwind CSS and Shadcn UI",
-          "Developed full-stack features such as document management integrated with S3 storage, data visualization dashboards using Recharts, and secure authentication mechanisms via NextAuth.js.",
-          "Containerized the application using Docker, ensuring consistent deployment across development and production environments."
+          "Led the creation of a full-stack admin system for university extension programs using **Next.js**, **PostgreSQL**, **Prisma**, and **TailwindCSS**.",
+          "Designed and implemented 10+ responsive UI modules; built document handling features with **Amazon S3**, and integrated secure authentication via **NextAuth.js**.",
+          "Deployed Dockerized environments to ensure seamless development-to-production transition."
         ]
       },
       {
-        "role": "Frontend Developer Intern",
+        "role": "Front-End Web Developer Intern",
         "company": "Prifina - Liberty. Equality. Data.",
-        "period": "October 2022 – November 2023",
+        "period": "October 2022 – January 2024",
+        "location": "San Francisco Bay Area",
+        "remote": true,
         "responsibilities": [
-          "Developed landing pages and login/signup functionality for an AI-powered job search assistant, ensuring smooth user flow and responsive design based on Figma wireframes.",
-          "Created a sleep monitoring widget using React.js, enabling precise tracking of sleep stages and enhancing user interaction.",
-          "Designed and implemented Storybook documentation for UI components, streamlining collaboration and improving team accessibility.",
-          "Utilized React.js, Next.js, TypeScript, and modern front-end technologies to deliver high-quality, user-centric web applications."
+          "Built key UI components for an AI job search assistant in React.js, optimized for responsiveness and performance.",
+          "Created reusable Storybook components to improve team development velocity and reduce QA feedback cycles.",
+          "Developed a data-driven sleep monitoring widget in React, enhancing user personalization and engagement."
         ]
       },
       {
@@ -165,7 +175,8 @@
           "Developed a CRUD application for school management using Java and MySQL, streamlining administrative processes.",
           "Implemented visitor rating features for offices and faculty members, enhancing user interaction and feedback collection.",
           "Created an admin dashboard with data visualization, providing insights and improving decision-making."
-        ]
+        ],
+        "onResume": false
       }
     ]
   },
@@ -187,7 +198,11 @@
           "Amazon S3"
         ],
         "link": "#",
-        "repoUrl": "#"
+        "repoUrl": "#",
+        "resume": {
+          "name": "ESIS",
+          "summary": "Full-stack university extension system (Next.js, Prisma, PostgreSQL, Docker)."
+        }
       },
       {
         "name": "Notifbuy",
@@ -296,7 +311,10 @@
           "Google Gemini"
         ],
         "link": "#",
-        "repoUrl": "https://github.com/shaunniekins/symphia"
+        "repoUrl": "https://github.com/shaunniekins/symphia",
+        "resume": {
+          "summary": "AI voice chatbot built in Flutter with Gemini API, STT/TTS, and dynamic conversation flow."
+        }
       },
       {
         "name": "Tara",
@@ -372,6 +390,10 @@
       "Google Gemini"
     ]
   },
+  "education": {
+    "degree": "Bachelor of Science, Computer Science",
+    "school": "Caraga State University (Main Campus) - Ampayon, Butuan City"
+  },
   "contact": {
     "title": "Get In Touch",
     "intro": "I’m currently open to new opportunities and collaborations. Whether you have a question or just want to say hi, my inbox is always open!",
@@ -389,9 +411,15 @@
       },
       {
         "name": "Resume",
-        "url": "https://drive.google.com/drive/u/0/folders/1vrfQt_FnG3P6B1Yo_Bou5ivNvKr6jiel",
+        "url": "/resume",
         "icon": "resume"
       }
     ]
+  },
+  "resume": {
+    "title": "Fullstack Software Engineer",
+    "email": "shaunniel02@gmail.com",
+    "website": "https://www.shaunniekins.com/",
+    "phone": "KzYzLTkwNy04NTctNDg2Ng=="
   }
 }

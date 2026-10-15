@@ -19,6 +19,18 @@
   --font-body: "Archivo", system-ui, -apple-system, "Helvetica Neue", sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
 
+  /* Resume sheet (/resume) — a printed page, so it is light by design. Proxima Nova
+     in the source .docx is substituted with Figtree; the rest are the original faces. */
+  --color-paper: #ffffff;
+  --color-paper-ink: #000000;
+  --color-paper-heading: #3d85c6;
+  --color-paper-link: #1155cc;
+
+  --font-resume: "Figtree", "Helvetica Neue", Arial, sans-serif;
+  --font-resume-serif: "Spectral", Georgia, serif;
+  --font-resume-arabic: "Jomhuria", "Geeza Pro", serif;
+  --font-resume-cjk: "Noto Serif JP", "SimSun", "Songti SC", serif;
+
   --text-eyebrow: 0.6875rem;
   --text-eyebrow--line-height: 1.2;
   --text-eyebrow--letter-spacing: 0.18em;

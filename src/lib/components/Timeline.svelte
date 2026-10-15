@@ -2,6 +2,7 @@
   import Icon from "./Icon.svelte";
   import SectionHeading from "./SectionHeading.svelte";
   import { reveal } from "$lib/reveal";
+  import { plain } from "$lib/text";
   import data from "$lib/portfolio-data.json";
 
   const { experience } = data;
@@ -82,7 +83,7 @@
             {#each job.responsibilities as responsibility (responsibility)}
               <li class="flex gap-3 text-sm text-pretty text-muted sm:text-base">
                 <span class="mt-2.5 h-px w-3 shrink-0 bg-line-strong" aria-hidden="true"></span>
-                <span class="min-w-0">{responsibility}</span>
+                <span class="min-w-0">{plain(responsibility)}</span>
               </li>
             {/each}
           </ul>

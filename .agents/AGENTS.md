@@ -24,6 +24,9 @@ All content lives in `src/lib/portfolio-data.json`. Components read it directly;
 | `src/lib/components/{Hero,About,Timeline,Projects,Contact}.svelte` | One section each |
 | `src/routes/+page.svelte` | Composition, `<svelte:head>`, skip link, footer. Keep it thin. |
 | `src/app.css` | Design tokens (`@theme`) + base styles + reveal CSS |
+| `src/routes/resume/+page.svelte` | `/resume`: one-page printable resume |
+| `src/lib/resume.ts` | Derives the resume from `portfolio-data.json` — jobs (minus `"onResume": false`), flattened skill groups, projects with a `resume` block, `education`. Resume-only fields (title, email, phone) live in the JSON's `resume` block. |
+| `src/lib/text.ts` | `**bold**` markup in bullets: `emphasis()` for the resume, `plain()` for the timeline |
 
 ## Design system
 
@@ -79,7 +82,14 @@ These break silently — no error, no failing test. Verify them by hand if you t
 - **Hero subtitles have no dividers.** The four roles never fit on one line at any width,
   so any separator orphans at the wrap. Space separates them instead.
 - **No light mode.** The design commits to dark; `color-scheme: dark` and `theme-color`
-  are set explicitly.
+  are set explicitly. The `/resume` sheet is the one exception: it is a printed page, so it
+  is white paper on the dark page, using the `paper-*` and `font-resume*` tokens.
+  **It must print to exactly one US Letter page.** Because it is derived from the portfolio
+  data, any edit to jobs, skills or projects can push it to two pages. On screen, a dashed
+  "Page 2 starts here" marker appears on the sheet when that happens.
+- **The resume phone number is print-only.** It is stored base64-encoded in the `resume`
+  block of `portfolio-data.json` and decoded into the DOM only between `beforeprint`/`afterprint`, so
+  it never appears in the prerendered HTML. Do not move it into `contacts` as plain text.
 - **No animation library.** Scroll reveal is one IntersectionObserver plus CSS transitions.
   Do not add GSAP or similar.
 - **No pagination on projects.** Filtering by stack replaced it, and the filter lives in
